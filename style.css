@@ -1,0 +1,340 @@
+@font-face{
+    font-family: 'RobotoBlack';
+    src: url('./fonts/Roboto-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face{
+    font-family: 'RobotoBold';
+    src: url('./fonts/Roboto-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'RobotoMedium';
+    src: url('./fonts/Roboto-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'RobotoRegular';
+    src: url('./fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: MontserratBlack;
+    src: url('./fonts/Montserrat-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'MontserratMedium';
+    src: url('./fonts/Montserrat-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav {
+    border-bottom: 1px solid #7A7A7A;
+}
+section {
+    border-bottom: 1px solid #7A7A7A;
+    margin-bottom: 30px;
+}
+
+ul {
+    display: flex;
+}
+
+ul.left {
+    position: absolute;
+    left: 0;
+}
+ul.right {
+    position: absolute;
+    right: 0;
+}
+
+
+li {
+    display: inline-block;
+}
+.li-a {
+    font-family: RobotoBlack;
+    font-size: 14px;
+    color: #7A7A7A;
+    margin-left: 18px
+}
+
+.lists {
+   margin-bottom: 50px;
+}
+
+.support {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.title {
+    font-family: RobotoBold;
+    font-size: larger;
+    margin-top: 0;
+    display: inline-block;
+    color: #45536D;
+}
+
+.logo {
+    width: 35px;
+    margin-right: 0;
+}
+
+.header-span {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #434A5C;
+    margin-left: 12px;
+}
+
+.support-link {
+    font-family: RobotoBlack;
+    font-size: 14px;
+    color: #576698;
+}
+
+.support-tel {
+    font-family: RobotoBlack;
+    font-size: 14px;
+    color: #484848;
+}
+
+/* s */
+section.img-section {
+    border-bottom: 1px solid #7A7A7A;
+    display: flex;
+    justify-content: center;
+}
+
+.img-moutains {
+    width: 1140px;
+    height: 595px;
+    margin-top: 175px;
+    margin-left: 390px;
+}
+
+.img-div {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: RobotoBlack;
+    font-size: 64px;
+    color: #141414;
+    line-height: 81.92px;
+}
+
+.span-title {
+    font-family: RobotoBlack;
+    font-size: 28px;
+    color: #BF6024;
+    line-height: 35.84px;
+}
+
+.img-in-list {
+    width: 555px;
+    height: 300px;
+    display: inline-block;
+}
+
+p {
+    font-family: RobotoBlack;
+    font-size: 14px;
+    color: #141414;
+    line-height: 17.92px;
+}
+
+.gaiety-div {
+    display: inline-block;
+    margin-right: 45px;
+    margin-bottom: 55px;
+}
+
+.options-title-lux {
+    font-family: RobotoMedium;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 30.72px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+.options-title {
+    font-family: RobotoBlack;
+    margin-top: 100px;
+    margin-left: 130px;
+    text-align: left;
+    font-size: 24px;
+    white-space: nowrap;
+    color: #141414;
+    line-height: 30.72px;
+}
+
+.options-lux {
+    background-image: url("./images/house2.png");
+    width: 555px;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.options {
+    background-color: #EAEDF2;
+    width: 540px;
+    height: 285px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center; 
+    margin-top: 15px;
+}
+
+.options-p {
+    margin-top: 155px;
+    display: flex;
+    position: absolute;
+    margin-left: 130px;
+    text-align: left;
+    
+}
+
+.lux-fill-button {
+    font-family: RobotoMedium;
+    font-size: 14px;
+    line-height: 17.92px;
+    color: #E5C6B2;
+    background-color: #BF6024;
+    width: 145px;
+    height: 28px;
+    position: absolute;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+    gap: 10px;
+    
+}
+
+.fill-button {
+    font-family: RobotoMedium;
+    font-size: 14px;
+    line-height: 17.92px;
+    color: #E5C6B2;
+    background-color: #BF6024;
+    width: 145px;
+    height: 28px;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 125px;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+    gap: 10px;
+}
+
+.fill-button-opt {
+    font-family: RobotoMedium;
+    font-size: 14px;
+    line-height: 17.92px;
+    color: #E5C6B2;
+    background-color: transparent;
+    border-color: #E5C6B2;
+    width: 145px;
+    height: 28px;
+    position: absolute;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+    gap: 10px;
+    margin-top: 200px;
+    margin-left: 130px;
+    align-self: flex-start;
+}
+
+.lux-nofill-button {
+    font-family: RobotoMedium;
+    font-size: 14px;
+    line-height: 17.92px;
+    color: #E5C6B2;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 12%;
+    margin-bottom: 30px;
+    border-color: #E5C6B2;
+    width: 145px;
+    height: 28px;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+    gap: 10px;
+}
+
+.nofill-button {
+    font-family: RobotoMedium;
+    font-size: 14px;
+    line-height: 17.92px;
+    color: #E5C6B2;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 280px;
+    border-color: #E5C6B2;
+    width: 145px;
+    height: 28px;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+    gap: 10px;
+}
+
+.class-options {
+    margin-left: 22%;
+}
+
+.class-options-lux {
+    display: inline-block;
+}
+.options-cont {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.p-footer {
+    font-family: MontserratMedium;
+    font-size: 14px;
+    color: #424242;
+    line-height: 18.2px;
+}
+
+.a-footer {
+    font-family: MontserratMedium;
+    font-size: 14px;
+    color: #424242;
+    line-height: 18.2px;
+}
+
+.first-footer-div {
+    display: inline-block;
+    left: 0;
+
+}
+.second-footer-div {
+    display: inline-block;
+    margin-left: 190px;
+    
+}
+.thrid-footer-div {
+    display: inline-block;
+    right: 0;
+    margin-left: 190px;
+}
