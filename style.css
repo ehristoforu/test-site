@@ -37,7 +37,11 @@
 
 body {
     max-width: 1200px;
+    margin: auto;
+    padding: 0;
 }
+
+
 
 nav {
     border-bottom: 1px solid #7A7A7A;
