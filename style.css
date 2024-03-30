@@ -35,9 +35,15 @@
     font-style: normal;
 }
 
+body {
+    max-width: 1200px;
+}
 
 nav {
     border-bottom: 1px solid #7A7A7A;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 section {
     border-bottom: 1px solid #7A7A7A;
@@ -47,16 +53,6 @@ section {
 ul {
     display: flex;
 }
-
-ul.left {
-    position: absolute;
-    left: 0;
-}
-ul.right {
-    position: absolute;
-    right: 0;
-}
-
 
 li {
     display: flex;
@@ -73,8 +69,8 @@ li {
 }
 
 .support {
-    display: inline-block;
-    position: absolute;
+    display: inline;
+    margin-left: 675px;
     right: 0;
 }
 
@@ -294,17 +290,12 @@ p {
     gap: 10px;
 }
 
-.class-options {
-    margin-left: 22%;
-}
 
 .class-options-lux {
     display: inline-block;
 }
 .options-cont {
     display: flex;
-    margin-bottom: 30px;
-    margin-top: 30px;
     flex-wrap: nowrap;
     justify-content: space-between;
     flex-direction: row;
