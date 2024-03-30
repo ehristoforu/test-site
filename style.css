@@ -59,7 +59,7 @@ ul.right {
 
 
 li {
-    display: inline-block;
+    display: flex;
 }
 .li-a {
     font-family: RobotoBlack;
@@ -144,7 +144,7 @@ h2 {
 .img-in-list {
     width: 555px;
     height: 300px;
-    display: inline-block;
+    display: flex;
 }
 
 p {
@@ -154,10 +154,10 @@ p {
     line-height: 17.92px;
 }
 
-.gaiety-div {
-    display: inline-block;
-    margin-right: 45px;
-    margin-bottom: 55px;
+.img-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .options-title-lux {
@@ -305,7 +305,18 @@ p {
     display: flex;
     margin-bottom: 30px;
     margin-top: 30px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
 
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .p-footer {
@@ -320,20 +331,4 @@ p {
     font-size: 14px;
     color: #424242;
     line-height: 18.2px;
-}
-
-.first-footer-div {
-    display: inline-block;
-    left: 0;
-
-}
-.second-footer-div {
-    display: inline-block;
-    margin-left: 190px;
-    
-}
-.thrid-footer-div {
-    display: inline-block;
-    right: 0;
-    margin-left: 190px;
 }
